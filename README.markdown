@@ -1,6 +1,8 @@
 vidtry: Playing Around With Video
 =================================
 
+**THIS PROJECT IS DISCONTINUED UNTIL FURTHER NOTICE.**
+
 The vidtry application is an experiment in video playback
 using MediaPlayer instead of VideoView. It is also
 experimenting with touch events (though not gestures just
