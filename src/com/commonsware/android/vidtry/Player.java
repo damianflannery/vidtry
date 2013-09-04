@@ -183,7 +183,8 @@ public class Player extends Activity implements
 		height=player.getVideoHeight();
 		
 		if (width!=0 && height!=0) {
-			holder.setFixedSize(width, height);
+			//holder.setFixedSize(width, height);
+			holder.setSizeFromLayout();
 			timeline.setProgress(0);
 			timeline.setMax(player.getDuration());
 			player.start();

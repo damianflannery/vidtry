@@ -1,15 +1,11 @@
-vidtry: Playing Around With Video
+vidtry: This is to playback for DailyBurn video using HLS and Android Media Player (not using VideoView)
 =================================
-
-**THIS PROJECT IS DISCONTINUED UNTIL FURTHER NOTICE.**
 
 The vidtry application is an experiment in video playback
 using MediaPlayer instead of VideoView. It is also
 experimenting with touch events (though not gestures just
 yet), widgets overlaying a SurfaceView, streaming video
 over HTTP, and whatnot.
-
-This code is far from ready for prime-time.
 
 Usage
 -----
@@ -36,11 +32,3 @@ License
 The code in this project is licensed under the Apache
 Software License 2.0, per the terms of the included LICENSE
 file.
-
-Questions
----------
-If you have questions regarding the use of this code, please
-join and ask them on the [cw-android Google Group][gg]. Be sure to
-indicate which application you have questions about.
-
-[gg]: http://groups.google.com/group/cw-android

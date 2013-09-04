@@ -4,8 +4,8 @@
 	android:layout_height="fill_parent">
 	<com.commonsware.android.vidtry.TappableSurfaceView
 		android:id="@+id/surface"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
 		android:layout_gravity="center">
 	</com.commonsware.android.vidtry.TappableSurfaceView>
 	<RelativeLayout
@@ -26,12 +26,12 @@
 				android:layout_weight="1"
 				android:layout_height="wrap_content"
 				android:completionThreshold="1"
+				android:text="http://dailyburn-f.akamaihd.net/i/series200/testing/CARDIO_116_CARDIOSCULPT/v7_,1390K,895K,555K,310K,155K,.mp4.csmil/master.m3u8?__b__=555K"
 			/>
 			<Button android:id="@+id/go"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
 				android:text="@string/go"
-				android:enabled="false"
 			/>
 		</LinearLayout>
 		<LinearLayout
